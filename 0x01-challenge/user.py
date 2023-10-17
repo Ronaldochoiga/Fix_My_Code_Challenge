@@ -22,7 +22,7 @@ class User():
         """ Documentation """
         return self.__email
    
-@email.setter
+    @email.setter
     def email(self, value):
         """ Documentation """
         if type(value) is not str:
